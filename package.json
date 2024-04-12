@@ -1,0 +1,21 @@
+{
+  "name": "infinite-scrollable-list",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@tanstack/vue-query": "^5.29.0",
+    "nuxt": "^3.11.2",
+    "vue3-virtual-scroller": "^0.2.3"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "sass": "^1.74.1"
+  }
+}
